@@ -117,7 +117,7 @@
       <!-- Modal -->
       <dialog id="treeModal" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box space-y-4">
-          <img id="modalImage" class="rounded-lg w-full h-48 object-cover" />
+          <img id="modalImage" class="rounded-lg w-full h-full object-cover" />
           <h3 id="modalTitle" class="text-xl font-bold"></h3>
           <p id="modalDesc" class="text-gray-600"></p>
           <div class="flex justify-between items-center">
@@ -137,6 +137,85 @@
         </div>
       </dialog>
     </section>
+
+    <!-- About the Campaign Section Starts Here -->
+    <section class="w-8/12 items-center mx-auto mt-18">
+      <h1 class="font-bold text-4xl text-[#1F2937] text-center mb-12">
+        About the Campaign
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 items-center space-y-4">
+        <div><img src="./assets/about.png" alt="" /></div>
+        <div class="items-center">
+          <p class="text-[#1F2937]">
+            Green Earth is a global tree plantation initiative dedicated to
+            fighting climate change. Since our start, we’ve planted over 500,000
+            trees worldwide. By joining our campaign, you help restore forests,
+            create habitats for wildlife, and combat global warming.
+           </p>
+
+         <ul class="list-disc">
+           <li class="text-[#1F2937]">
+            Restoration of natural habitats
+          </li>
+          <li class="text-[#1F2937]">Improvement of air quality</li>
+          <li class="text-[#1F2937]">Support for local communities</li>
+        </div>
+         </ul>
+      </div>
+    </section>
+
+    <!-- Our Impact Section Starts Here -->
+   <section class="bg-[#CFF0DC] p-16 mt-16">
+    <h1 class="text-center font-semibold text-[#1F2937] text-4xl mb-8">Our Impact</h1>
+<div class="flex flex-col md:flex-row justify-between items-center mx-auto space-y-4">
+  <div class="bg-white py-10 px-25 md:px-50 rounded-xl shadow">
+    <h1 class="text-5xl text-[#15803D] font-semibold">500K+</h1>
+    <p class="text-[#1F2937] text-center">Trees Planted</p>
+  </div>
+
+  <div class="bg-white py-10 px-30 md:px-50 rounded-xl shadow">
+    <h1 class="text-5xl text-[#15803D] font-semibold md:pl-4">120K+</h1>
+    <p class="text-[#1F2937] text-center">Communities Involved</p>
+  </div>
+
+  <div class="bg-white py-10 px-35 md:px-50 rounded-xl shadow">
+    <h1 class="text-5xl text-[#15803D] font-semibold md:pl-6">30+</h1>
+    <p class="text-[#1F2937] text-center">Countries Reached</p>
+  </div>
+</div>
+   </section>
+
+   <!-- Plant a Tree Today Starts Here -->
+    <section class="bg-[#166534] h-full pb-30">
+<h1 class="text-white text-center text-3xl pb-15 pt-25 font-semibold">Plant a Tree Today</h1>
+
+  <form action="" class="bg-[#15803D] w-8/12 md:w-4/12 mx-auto p-8 space-y-2 rounded-xl shadow">
+    <input type="text" placeholder="Your Name" class="input border-none w-full" />
+    <input type="email" placeholder="Your Email Address" class="input border-none w-full" />
+    <div>
+            <select
+              id=""
+              class="select border-none bg-[#F4F5F7]  rounded-[6px] w-full"
+            >
+              <option>Number of Trees</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <button
+          class="btn shadow-none bg-[#FACC15] border-none text-[#15803D] rounded-full w-full mt-2"
+          >
+          Donate Now
+        </button>
+      </form>
+    </section>
+    <!-- Footer Starts Form Here -->
+    <footer class="py-4 bg-[#14532D]">
+      <p class="text-center text-white text-sm">© 2025 Green Earth. All Rights Reserved.</p>
+    </footer>
     <script src="./script/index.js"></script>
   </body>
 </html>
